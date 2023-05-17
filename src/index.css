@@ -1,0 +1,126 @@
+
+.frontend{
+  background-color: rgb(187, 129, 129);
+  width: 100%;
+ /*border: 1px solid blue;*/
+}
+
+.feeling{
+ 
+display: flex;
+justify-content: center;
+ font-size: 30px;
+ color: white;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ 
+}
+
+.feelingspn{
+  width: 100%;
+  /*border: 2px solid green;*/
+    text-align: center;
+    padding-top: 10px;
+}
+
+.clickIt
+{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.clickItspn{
+  width: 100%;
+  /*border: 2px solid green;*/
+    text-align: center;
+   
+}
+
+.allEmoji
+{
+   display: flex;
+   justify-content: center;
+   display: grid;
+   grid-template-columns: repeat(3, 70px);
+   grid-gap: 5%;
+}
+
+.EMOJI:hover, .veiwmood:hover{
+ 
+  cursor: pointer;
+}
+
+.veiwmood{
+  position: relative;
+  left: 50%;
+  width: 120px;
+  color: white;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  /*border: 2px solid red;*/
+}
+
+.arrowmark{
+  font-size: 25px;
+  font-weight: bolder;
+ 
+}
+
+.showchosen{
+
+ /*border: 1px solid green;*/
+ background-color: rgb(107, 129, 129);
+ border-radius: 5px;
+ position:relative;
+ top: 10px;
+
+ /* bellow two css that is 
+ max-height: 100px;
+ overflow-y: auto;    write becouse we want to slide the this page
+  with rest page as fixed*/
+ max-height: 200px;
+ overflow-y: auto;
+
+ /*For don't move the page after the sliding of conetent of page 
+ to the end, fixed the position(i.e position:fixed;) of container of content page and the
+ slide the content of page 
+ NOTE:: It use in creating chatbox ans many messenger user name in one container*/
+}
+
+.BACK{
+  position: sticky;
+  top: 0px;
+  background: green;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+}
+
+.OUTtimeline{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   /* bellow one css that is 
+ height: 100px; write becouse we want to slide the this page
+  with rest page as fixed
+   height: 100px;*/ /* But it's not nessecary to set the height;*/
+
+}
+
+
+.Outarrow{
+  font-size: 30px;
+  color:white;
+  /*border: 1px solid red;*/
+}
+
+.OutTime{
+  /*border: 1px solid red;*/
+  margin: 0px 5px;
+  color:white;
+}
